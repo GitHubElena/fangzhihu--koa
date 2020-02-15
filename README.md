@@ -47,18 +47,17 @@
 
 ## 安装步骤 ##
 
-  安装nodejs 以及Mongodb，同时安装mongodb-compass数据库可视化工具方便查看数据的变化
-  mongodb下在bin目录同文件下新建data文件夹且在文件夹下新建db文件夹，
-  确保数据库文件存放目录
-  git clone 本项目
+  - 安装nodejs 以及Mongodb，同时安装mongodb-compass数据库可视化工具方便查看数据的变化
+  - mongodb下在bin目录同文件下新建data文件夹且在文件夹下新建db文件夹，确保数据库文件存放目录
+  - git clone  +   cloneUrl
 
 
 ## 本地开发 ##
 
-  进入到mongodb下的bin目录  cmd执行 mongod --dbpath=..\data\db开启数据库
-  开启mongodb-compass 连接mongodb
-  cd fangzhihu      // 进入模板目录
-  npm install       // 安装文件依赖
-  npm run devStart  // 启动该项目
+  - 进入到mongodb下的bin目录  cmd执行 mongod --dbpath=..\data\db开启数据库
+  - 开启mongodb-compass 连接mongodb
+  - cd fangzhihu      // 进入模板目录
+  - npm install       // 安装文件依赖
+  - npm run devStart  // 启动该项目
 
 
