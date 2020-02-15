@@ -1,0 +1,28 @@
+{
+  "name": "koaproject",
+  "version": "1.0.0",
+  "description": "仿知乎 Restful API -mongodb koa",
+  "main": "index.js",
+  "scripts": {
+    "prodStart": "cross-env NODE_ENV=production node app",
+    "devStart": "nodemon app"
+  },
+  "author": "elena",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.0",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^3.6.0",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^8.0.7",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
