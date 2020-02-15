@@ -10,39 +10,39 @@
 - [x] koa-paramter参数校验插件
 - [x] koa-router 实现路由与接口的匹配
 
-
+ 
 ## 目录结构介绍 ##
 
-|--  app                                 // 源码目录
-|       |-- controllers                  // 控制器文件
-|                |-- answers             // 答案相关业务接口文件
-|                |-- comments            // 评论相关业务接口文件
-|                |-- home                // 首页相关业务接口文件
-|                |-- questions           // 问题相关业务接口文件
-|                |-- topics              // 话题相关业务接口文件
-|                |-- users               // 用户相关业务接口文件
-|       |-- models                       // 数据库scheme文件
-|                |-- answers             // 答案相关数据库schema文件
-|                |-- comments            // 评论相关数据库schema文件
-|                |-- questions           // 话题相关数据库schema文件
-|                |-- users               // 用户相关数据库schema文件
-|       |-- public                       // 公共文件存放目录
-|                |-- uploads             // 上传文件存放目录
-|       |-- routes                       // 路由文件
-|                |-- answers             // 答案相关路由文件
-|                |-- comments            // 评论相关路由文件
-|                |-- home                // 主页路由文件
-|                |-- index               // 自动化载入路由实列文件
-|                |-- questions           // 问题相关路由文件
-|                |-- topics              // 话题相关路由文件
-|                |-- users               // 用户相关路由文件
-|      |-- config                       // 公共配置文件
-|      |-- index                        // 主入口文件       
-|--  data                             
-|       |-- db                           // 数据库文件    
-|-- .gitignore                           // 忽略的文件
-|--  package.json                        // 项目及工具的依赖配置文件
-|--  README.md                           // 说明
+|--  app                                 // 源码目录  
+|       |-- controllers                  // 控制器文件  
+|                |-- answers             // 答案相关业务接口文件  
+|                |-- comments            // 评论相关业务接口文件  
+|                |-- home                // 首页相关业务接口文件  
+|                |-- questions           // 问题相关业务接口文件  
+|                |-- topics              // 话题相关业务接口文件  
+|                |-- users               // 用户相关业务接口文件  
+|       |-- models                       // 数据库scheme文件  
+|                |-- answers             // 答案相关数据库schema文件  
+|                |-- comments            // 评论相关数据库schema文件  
+|                |-- questions           // 话题相关数据库schema文件  
+|                |-- users               // 用户相关数据库schema文件  
+|       |-- public                       // 公共文件存放目录  
+|                |-- uploads             // 上传文件存放目录  
+|       |-- routes                       // 路由文件  
+|                |-- answers             // 答案相关路由文件  
+|                |-- comments            // 评论相关路由文件  
+|                |-- home                // 主页路由文件  
+|                |-- index               // 自动化载入路由实列文件  
+|                |-- questions           // 问题相关路由文件  
+|                |-- topics              // 话题相关路由文件  
+|                |-- users               // 用户相关路由文件  
+|      |-- config                       // 公共配置文件  
+|      |-- index                        // 主入口文件  
+|--  data                               
+|       |-- db                           // 数据库文件      
+|-- .gitignore                           // 忽略的文件  
+|--  package.json                        // 项目及工具的依赖配置文件  
+|--  README.md                           // 说明  
 
 
 ## 安装步骤 ##
